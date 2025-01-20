@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2023 The LineageOS Project
+ * Copyright (C) 2024-2025 The OrionOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.updater.misc;
+package org.orion.updater.misc;
 
 import android.app.AlarmManager;
 import android.content.ClipData;
@@ -35,12 +35,12 @@ import androidx.preference.PreferenceManager;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.lineageos.updater.R;
-import org.lineageos.updater.UpdatesDbHelper;
-import org.lineageos.updater.controller.UpdaterService;
-import org.lineageos.updater.model.Update;
-import org.lineageos.updater.model.UpdateBaseInfo;
-import org.lineageos.updater.model.UpdateInfo;
+import org.orion.updater.R;
+import org.orion.updater.UpdatesDbHelper;
+import org.orion.updater.controller.UpdaterService;
+import org.orion.updater.model.Update;
+import org.orion.updater.model.UpdateBaseInfo;
+import org.orion.updater.model.UpdateInfo;
 
 import java.io.BufferedReader;
 import java.io.File;
