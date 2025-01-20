@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 The LineageOS Project
+ * Copyright (C) 2025 The OrionOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.updater;
+package org.orion.updater;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import org.lineageos.updater.model.UpdateInfo;
+import org.orion.updater.model.UpdateInfo;
 
 public abstract class UpdatesListActivity extends AppCompatActivity {
     public abstract void exportUpdate(UpdateInfo update);

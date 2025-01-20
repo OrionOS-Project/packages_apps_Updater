@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2023 The LineageOS Project
+ * Copyright (C) 2025 The OrionOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.updater;
+package org.orion.updater;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -66,15 +66,15 @@ import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.google.android.material.snackbar.Snackbar;
 
 import org.json.JSONException;
-import org.lineageos.updater.controller.UpdaterController;
-import org.lineageos.updater.controller.UpdaterService;
-import org.lineageos.updater.download.DownloadClient;
-import org.lineageos.updater.misc.BuildInfoUtils;
-import org.lineageos.updater.misc.Constants;
-import org.lineageos.updater.misc.StringGenerator;
-import org.lineageos.updater.misc.Utils;
-import org.lineageos.updater.model.Update;
-import org.lineageos.updater.model.UpdateInfo;
+import org.orion.updater.controller.UpdaterController;
+import org.orion.updater.controller.UpdaterService;
+import org.orion.updater.download.DownloadClient;
+import org.orion.updater.misc.BuildInfoUtils;
+import org.orion.updater.misc.Constants;
+import org.orion.updater.misc.StringGenerator;
+import org.orion.updater.misc.Utils;
+import org.orion.updater.model.Update;
+import org.orion.updater.model.UpdateInfo;
 
 import java.io.File;
 import java.io.IOException;

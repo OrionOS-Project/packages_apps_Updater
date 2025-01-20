@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017-2022 The LineageOS Project
+ * Copyright (C) 2025 The OrionOS Project
  * Copyright (C) 2020-2022 SHIFT GmbH
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.updater;
+package org.orion.updater;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -24,13 +24,13 @@ import android.os.ParcelFileDescriptor;
 import android.util.Log;
 
 import org.json.JSONException;
-import org.lineageos.updater.controller.UpdaterController;
-import org.lineageos.updater.controller.UpdaterService;
-import org.lineageos.updater.misc.StringGenerator;
-import org.lineageos.updater.misc.Utils;
-import org.lineageos.updater.model.Update;
-import org.lineageos.updater.model.UpdateInfo;
-import org.lineageos.updater.model.UpdateStatus;
+import org.orion.updater.controller.UpdaterController;
+import org.orion.updater.controller.UpdaterService;
+import org.orion.updater.misc.StringGenerator;
+import org.orion.updater.misc.Utils;
+import org.orion.updater.model.Update;
+import org.orion.updater.model.UpdateInfo;
+import org.orion.updater.model.UpdateStatus;
 
 import java.io.File;
 import java.io.FileInputStream;
